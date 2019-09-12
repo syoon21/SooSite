@@ -1,0 +1,34 @@
+body{
+    background-color: cornflowerblue;
+
+}
+
+
+p{
+   
+    color:pink;
+    font-family: 'Sacramento', cursive;
+    font-size: 20px;
+    
+
+}
+
+h1{
+  
+    font-family: 'Chilanka', cursive;
+    font-size: 40px;
+    color: palevioletred;
+
+
+}
+div{
+    background-color: aqua;
+    font-family: fantasy;
+    color: darkblue;
+    display: absolute;
+    top: 50%;
+}
+
+#third-div{
+    background-color: blueviolet;
+}
