@@ -1,0 +1,44 @@
+body{
+    background-color: #4989ba;
+    margin-top: 100px;
+   
+    margin-right: 150px;
+    margin-left: 80px;
+
+}
+
+
+
+
+h1{
+  
+    color:#ffa29c;
+    font-family: 'Sacramento', cursive;
+    font-size: 70px;
+
+}
+h2{
+  
+    font-family: 'Chilanka', cursive;
+    font-size: 25px;
+    color: #ffe6c4;
+}
+
+footer{
+    font-size: 10px;
+}
+div{
+    font-family: 'Chilanka', cursive;
+    font-size: 15px;
+    color: #ffa29c;
+}
+p{
+
+    font-family: 'Chilanka', cursive;
+    font-size: 20px;
+    color: pink;
+    margin-left: 80px;
+    
+    
+
+}
