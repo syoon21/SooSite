@@ -1,6 +1,11 @@
-body{
-    background-color: pink;
+/* html {
     background-image: url("flower.jpg");
+} */
+
+body{
+    background-image: url("images/heart.png");
+    background-color: pink;
+    
     
     margin-top: 100px;
     margin-right: 150px;
