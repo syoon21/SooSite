@@ -1,0 +1,174 @@
+*{
+    margin: auto;
+    padding: 0px;
+    background-color: blanchedalmond;
+}
+
+.row{
+    /* position: relative; */
+   
+    margin:  auto;
+    top: 300px;
+    width: 800px;
+    height: 400px;
+   
+    
+}
+.box {
+    top: 200px;
+    position: relative;
+    margin-top: 100px;
+    float: left;
+    width: 60px;
+    height: 150px;
+    left: 160px;
+    
+    
+    background-size: contain;
+    
+    
+}
+.cat1{
+    background-image: url("../../session08HW/Layer\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    animation-name: kitty1;
+    animation-duration: 16s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+@keyframes kitty1{
+    0%{top:300px; left:160px;}
+    10%{ top:85px; left:160px;}
+    100%{ top:85px; left:160px;}
+    }
+
+
+.cat2{
+    background-image: url("../../session08HW/Layer\ 2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    animation-name: kitty2;
+    animation-duration: 16s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    
+   
+}
+@keyframes kitty2{
+    0%{top:300px; left:160px;}
+    10%{top:300px; left:160px;}
+    20%{ top:85px; left:160px;}
+    100%{ top:85px; left:160px;}
+    }
+
+
+.cat3{
+    background-image: url("../../session08HW/Layer\ 3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    animation-name: kitty3;
+    animation-duration: 16s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+@keyframes kitty3{
+    0%{top:300px; left:160px;}
+    20%{top:300px; left:160px;}
+    30%{ top:85px; left:160px;}
+    100%{ top:85px; left:160px;}
+    }
+.cat4{
+    background-image: url("../../session08HW/Layer\ 4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    animation-name: kitty4;
+    animation-duration: 16s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+@keyframes kitty4{
+    0%{top:300px; left:160px;}
+    30%{top:300px; left:160px;}
+    40%{ top:85px; left:160px;}
+    100%{ top:85px; left:160px;}
+    }
+.cat5{
+    background-image: url("../../session08HW/Layer\ 5.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    animation-name: kitty5;
+    animation-duration: 16s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+@keyframes kitty5{
+    0%{top:300px; left:160px;}
+    40%{top:300px; left:160px;}
+    50%{ top:85px; left:160px;}
+    100%{ top:85px; left:160px;}
+    }
+.cat6{
+    background-image: url("../../session08HW/Layer\ 6.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    animation-name: kitty6;
+    animation-duration: 16s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+@keyframes kitty6{
+    0%{top:300px; left:160px;}
+    50%{top:300px; left:160px;}
+    60%{ top:85px; left:160px;}
+    100%{ top:85px; left:160px;}
+    }
+.cat7{
+    background-image: url("../../session08HW/Layer\ 7.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    animation-name: kitty7;
+    animation-duration: 16s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+@keyframes kitty7{
+    0%{top:300px; left:160px;}
+    60%{top:300px; left:160px;}
+    70%{ top:85px; left:160px;}
+    100%{ top:85px; left:160px;}
+    }
+.cat8{
+    background-image: url("../../session08HW/Layer\ 8.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    animation-name: kitty8;
+    animation-duration: 16s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+@keyframes kitty8{
+    0%{top:300px; left:160px;}
+    70%{top:300px; left:160px;}
+    80%{ top:85px; left:160px;}
+    100%{ top:85px; left:160px;}
+    }
+.fence{
+    position: relative;
+    background-image: url("../../session08HW/woodfence.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 300px;
+    width: 600px;
+    height: 300px;
+    
+}
+
