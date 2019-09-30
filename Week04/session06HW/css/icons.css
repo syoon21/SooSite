@@ -1,0 +1,181 @@
+body{
+    background-color: bisque;
+}
+
+.phoneshape{
+    width: 325px;
+    height: 675px;
+    /* background-color: pink; */
+    margin: auto;
+    border-radius: 10%;
+    margin-top: 10%;
+    background-image: url("../../session06HW/images/phone.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.backgroundpic{
+    background-image: url("../../session06HW/images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 295px;
+    height: 530px;
+    
+    margin: auto;
+}
+
+.row {
+    height: 15%;
+    /* background-color: rgba(255, 0, 0, 0.2); */
+}
+
+.box {
+    float: left;
+    width: 19%;
+    height: 71%;
+    margin: 2% 3%;
+    border-radius: 25%;
+    background-color: #69a3c1;
+    background-size: contain;
+    transition: 1.5s;
+}
+
+.box:hover {
+    transform: scale(1.1);
+}
+.amazon {
+    background-image: url("../../session06HW/images/amazon.png");
+    background-size: fill;
+    background-position: 50% 50%;
+
+}
+.googlemap{
+    background-image: url("../../session06HW/images/Googlemap.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    
+}
+.boa{
+    background-image: url("../../session06HW/images/boa.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.calculator{
+    background-image: url("../../session06HW/images/calculator.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.candycrush{
+    background-image: url("../../session06HW/images/candy_crush.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.chrome{
+    background-image: url("../../session06HW/images/chrome.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.discord{
+    background-image: url("../../session06HW/images/discord.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.facebook{
+    background-image: url("../../session06HW/images/facebooklogo.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.gmail{
+    background-image: url("../../session06HW/images/gmail.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.itch{
+    background-image: url("../../session06HW/images/itch.io.jpeg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.insta{
+    background-image: url("../../session06HW/images/instagram.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.itunes{
+    background-image: url("../../session06HW/images/itunes.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.kindle{
+    background-image: url("../../session06HW/images/kindle.jpeg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.linkedin{
+    background-image: url("../../session06HW/images/linkedin.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.lovenikki{
+    background-image: url("../../session06HW/images/lovenikki.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.playstore{
+    background-image: url("../../session06HW/images/playstore.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.uber{
+    background-image: url("../../session06HW/images/uber.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.venmo{
+    background-image: url("../../session06HW/images/venmo.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.weather{
+    background-image: url("../../session06HW/images/weather.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.youtube{
+    background-image: url("../../session06HW/images/youtube.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.circleicon {
+    float: left;
+    width: 19%;
+    height: 71%;
+    margin: 2% 3%;
+    border-radius: 25%;
+  
+    background-size: contain;
+    transition: 1.5s;
+}
+.circleicon:hover {
+    transform: scale(1.1);
+}
