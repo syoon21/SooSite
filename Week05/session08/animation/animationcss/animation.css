@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#container{
+    position: relative;
+    background-color: palevioletred;
+    margin: 0 auto;
+    top: 10vh;
+    width: 80vw;
+    height: 80vh;
+    border-radius: 20px;
+}
+
+.box{
+    position: relative;
+    /* top: 100px;
+    left: 100px; */
+    width: 200px;
+    height: 200px;
+    
+    animation-name: swag-rounded;
+    animation-duration: 4s;
+    /* animation-fill-mode: forwards; */
+    /* animation-fill-mode: backwards; */
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    /* animation-delay: 1s; */
+}
+
+@keyframes swag-rounded {
+    0%  {top:0px; left: 0px; border-radius: 0; background-color: teal; }
+    25% {top:0px; left: 400px;border-radius: 12.5%;background-color: rebeccapurple}
+    50% {top: 400px; left: 400px; border-radius: 25%;background-color: purple;}
+    75% {top: 400px; left: 0px; border-radius: 37.5%;background-color: salmon;}
+    99% {top: 0px; left: 0px; border-radius: 50%;background-color: sandybrown}
+    100% {top: 0px; left: 0px; border-radius: 50%;background-color: bisque}
+    
+    
+}
+
+.teal{
+    background-color: pink;
+}

@@ -1,0 +1,63 @@
+body{
+    background-color: antiquewhite;
+    padding: 0px;
+    margin: 0px;
+}
+h1{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#trigger1:hover .box
+{
+    width: 10px;
+    height: 20px;
+    background-color: purple;
+
+    transition-property:  width, height, background-color;
+    transition-duration: 500ms,1000ms,4000ms;
+    transition-delay: 100ms,300ms,400ms;
+    transition-timing-function: cubic-bezier(0,.72,1,.35), ease-out, linear;
+}
+.box{
+    position: relative;
+    left:200px;
+    top:300px;
+    width: 200px;
+    height: 200px;
+  
+    /* transition-property: width, height, background-color */
+    
+    /* transition: width 2000ms ease-in;
+    transition: backgroundc-color 4000ms ease-out; */
+}
+
+.box{
+    border: 3px solid black;
+}
+
+.red{
+    background-color: palevioletred;
+}
+
+#trigger1{
+    position: relative;
+    left:200px;
+    top: 300px;
+    width: 200px;
+    height: 200px;
+    /* background-color: grey;
+    border: 5px solid orange; */
+}
+
+ .container{
+     width:90%;
+     margin: 0 auto;
+     background-color: pink;
+ }
+
+ /* #container2{
+     background-color: aquamarine;
+
+     /* this overrides */
+ 
