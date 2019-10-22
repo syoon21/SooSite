@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: aquamarine;
+}
+
+h1{
+    margin: 20px;
+    background-color: lightgrey;
+    border-radius: 30%;
+    color: blue;
+}
+
+p{
+    text-align: center;
+}
+img{
+    width: 100px;
+}
+#output{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+}
+#intro-div{
+    padding: 20px;
+    color: black;
+    background-color: purple;
+    border-radius: 5%;
+}
+.enter{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: orange;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#inner{
+    text-decoration: underline;
+    text-shadow: 3px 3px 3px grey;
+    font-size: 20px;
+}
